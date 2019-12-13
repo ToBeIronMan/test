@@ -17,7 +17,7 @@ server:
     min-spare-threads: 25
     max-threads: 300
     accept-count: 200
-  port: 8080
+  port: 8086
 mybatis:
   type-aliases-package: com.example.demo.mapper
   mapper-locations: classpath:mapping/*.xml
